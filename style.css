@@ -1,9 +1,49 @@
-h1 {
-  font-family: helvetica, arial, sans-serif;
-  text-align: center;
+body {
+  max-width: 1200px;
+  font-family: 'Merriweather', helvetica, serif;
+  font-size: 10px;
+  margin: 0px auto;
 }
 
-body {
+header {
+  margin: 0px auto;
+  margin-top: 25px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: 'Staatliches', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 4.2rem;
+  margin: 0 auto;
+  flex: 2 300px;
+  padding-top: 70px;
+  padding-left: 30px;
+}
+
+header img {
+  width: 200px;
+  flex: 0 200px;
+  /* margin: -25px auto;
+  display: flex;
+  justify-content: center; */
+}
+
+nav {
+  flex: 3 400px;
+  justify-content: center;
+  display: inline-flex;
+}
+
+li {
+  display: inline;
+  padding: 0 5px;
+}
+
+section {
   width: 640px;
   margin: 0 auto;
 }
